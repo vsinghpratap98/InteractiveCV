@@ -40,6 +40,9 @@ public class ButtonClick : MonoBehaviour
         Proachievements.SetActive(true);
         Xtraachievements.SetActive(true);
         Academicachievements.SetActive(true);
+        ExtraPanel.SetActive(false);        
+        ProfPanel.SetActive(false);
+        AcadePanel.SetActive(false);
 
     }
     public void OnClickPro()
